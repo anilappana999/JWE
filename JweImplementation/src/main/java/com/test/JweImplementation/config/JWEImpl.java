@@ -17,7 +17,7 @@ import com.nimbusds.jose.crypto.RSAEncrypter;
 import com.nimbusds.jwt.EncryptedJWT;
 import com.nimbusds.jwt.JWTClaimsSet;
 
-public class JWEEncrypterDecrypterCode {
+public class JWEImpl {
 	public void JWEEncDec() throws JOSEException, ParseException {
 		RSAPrivateKey privateRsaKey = null;
 		RSAPublicKey publicRsaKey = null;
